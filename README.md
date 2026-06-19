@@ -1,25 +1,37 @@
-# Cloud-Connected Security Node - DecodeLabs IoT Project 3
+# ATM Interface - DecodeLabs Java Project 3
 
 ## What It Does
-Simulates a cloud-connected security node that detects intruders using an ultrasonic sensor.
+A Java-based ATM simulation using Object-Oriented Programming principles.
 
 ## Features
-- Wi-Fi connection simulation
-- Ultrasonic distance sensor reading
-- Intruder detection (distance < 30cm)
-- HTTP telemetry publishing
-- Cloud dashboard visualization
-- Alert logging
+- PIN validation
+- Check balance
+- Deposit money
+- Withdraw money
+- Account information display
+- Input validation
 
-## Key Concepts
-- Wi-Fi stack configuration
-- HTTP POST telemetry
-- Cloud dashboard integration
-- Real-time security monitoring
+## Classes
+
+### BankAccount
+| Attribute | Description |
+|-----------|-------------|
+| accountNumber | Unique account ID |
+| accountHolder | Account owner name |
+| balance | Current balance |
+| pin | Security PIN |
+
+### ATM
+| Method | Description |
+|--------|-------------|
+| displayMenu() | Show menu options |
+| run() | Main ATM loop |
+| main() | Entry point |
 
 ## How to Run
-1. Run: `python security_node.py`
-2. View simulated security telemetry
+1. Compile: `javac BankAccount.java ATM.java`
+2. Run: `java ATM`
+3. Enter PIN: `1234`
 
 ## Author
 Aiman Zahoor
