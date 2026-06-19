@@ -1,24 +1,18 @@
-# Algorithmic Trading Strategy & Backtesting - DecodeLabs Stock Market Project 3
+# The Visual Identity - DecodeLabs UI/UX Project 3
 
 ## What It Does
-Backtests a simple moving average crossover trading strategy over 5 years of data.
+A complete high-fidelity design system for a premium organic food delivery brand.
 
-## Strategy Rules
-- Entry: 50 MA crosses above 200 MA (BUY)
-- Exit: 50 MA crosses below 200 MA (SELL)
-- Stop Loss: -5%
-- Take Profit: +10%
+## Contents
+- Style Tile (Colors, Typography, UI Elements)
+- 3 High-Fidelity Screen Designs
+- Design Principles
 
-## Features
-- Synthetic 5-year market data generation
-- Moving average calculation
-- Trade execution logic
-- Performance metrics (win rate, return)
-- Trade history display
-
-## How to Run
-1. Install: `pip install pandas numpy`
-2. Run: `python trading_backtest.py`
+## Files
+| File | Description |
+|------|-------------|
+| `style_tile.md` | Color palette, typography, UI elements |
+| `screen_designs.md` | 3 high-fidelity screen designs |
 
 ## Author
 Aiman Zahoor
