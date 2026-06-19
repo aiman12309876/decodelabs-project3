@@ -1,26 +1,19 @@
-# Sales Data Analysis - DecodeLabs Project 2 Task 10
+# Interactive Web Elements - DecodeLabs Frontend Project 3
 
 ## What It Does
-Analyzes sales data to find patterns, trends, and key business insights.
+A webpage with 6 interactive JavaScript elements demonstrating DOM manipulation.
 
-## Dataset Info
-- Total Rows: 1,200
-- Total Columns: 14
-- Time Period: January 2023 - June 2025
-- Products: Monitor, Laptop, Phone, Tablet, Printer, Desk, Chair
-
-## Analysis Performed
-1. Dataset shape and missing values
-2. Duplicate order check
-3. Payment method distribution
-4. Order status breakdown
-5. Top 5 products by revenue
-6. Revenue by marketing channel
-7. Monthly sales trend
+## Interactive Features
+1. **Button Click** - Displays a message on click
+2. **Dark Mode Toggle** - Switches between light and dark themes
+3. **Counter** - Increase/decrease count
+4. **Show/Hide** - Toggle visibility of text
+5. **Image Gallery** - Navigate through images
+6. **Color Changer** - Random background color change
 
 ## How to Run
-1. Install: `pip install pandas numpy matplotlib seaborn`
-2. Run: `python sales_analysis.py`
+1. Open `index.html` in any browser
+2. Interact with all the buttons
 
 ## Author
 Aiman Zahoor

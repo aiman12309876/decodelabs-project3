@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Elements</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Interactive Web Elements</h1>
+        <p class="subtitle">Click, toggle, and interact with the page</p>
+
+        <div class="card">
+            <h2>1. Button Click</h2>
+            <p id="clickMessage">Click the button to see a message</p>
+            <button id="clickBtn">Click Me</button>
+        </div>
+
+        <div class="card">
+            <h2>2. Dark Mode Toggle</h2>
+            <p>Switch between light and dark mode</p>
+            <button id="darkModeBtn">Dark Mode</button>
+        </div>
+
+        <div class="card">
+            <h2>3. Counter</h2>
+            <p>Increase or decrease the count</p>
+            <div class="counter-container">
+                <button id="decreaseBtn">-</button>
+                <span id="counterDisplay">0</span>
+                <button id="increaseBtn">+</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>4. Show / Hide</h2>
+            <p>Toggle visibility of the text below</p>
+            <button id="toggleBtn">Hide</button>
+            <p id="toggleText">This is a text that you can show or hide.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. Image Gallery</h2>
+            <p>Click the buttons to change the image</p>
+            <div class="gallery">
+                <button id="prevBtn">Previous</button>
+                <img id="galleryImage" src="https://picsum.photos/200/150?random=1" alt="Gallery Image" />
+                <button id="nextBtn">Next</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>6. Color Changer</h2>
+            <p>Click to change the background color of the box</p>
+            <div id="colorBox"></div>
+            <button id="colorBtn">Change Color</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
