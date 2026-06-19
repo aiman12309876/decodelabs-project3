@@ -1,22 +1,26 @@
-# CI/CD Pipeline Basics - DecodeLabs DevOps Project 3
+# Sales Data Analysis - DecodeLabs Project 2 Task 10
 
 ## What It Does
-Demonstrates understanding of CI/CD pipeline concepts and automation.
+Analyzes sales data to find patterns, trends, and key business insights.
 
-## Topics Covered
-1. What is CI/CD?
-2. CI/CD Pipeline Stages
-3. Pipeline Flow
-4. GitHub Actions Workflow
-5. Benefits of CI/CD
-6. Best Practices
+## Dataset Info
+- Total Rows: 1,200
+- Total Columns: 14
+- Time Period: January 2023 - June 2025
+- Products: Monitor, Laptop, Phone, Tablet, Printer, Desk, Chair
 
-## Files in This Repository
-| File | Description |
-|------|-------------|
-| `pipeline_stages.md` | CI/CD concepts and stages |
-| `github_actions.yml` | Sample GitHub Actions workflow |
-| `README.md` | Project overview |
+## Analysis Performed
+1. Dataset shape and missing values
+2. Duplicate order check
+3. Payment method distribution
+4. Order status breakdown
+5. Top 5 products by revenue
+6. Revenue by marketing channel
+7. Monthly sales trend
+
+## How to Run
+1. Install: `pip install pandas numpy matplotlib seaborn`
+2. Run: `python sales_analysis.py`
 
 ## Author
 Aiman Zahoor
