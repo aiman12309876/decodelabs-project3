@@ -1,18 +1,20 @@
-# Phishing Awareness Analysis - DecodeLabs Cybersecurity Project 3
+# Unsupervised Learning - Customer Segmentation - DecodeLabs Data Science Project 3
 
 ## What It Does
-Analyzes email messages to identify phishing attempts and red flags.
+Segments customers using unsupervised learning techniques (K-Means clustering).
 
 ## Features
-- Red flag detection (urgency, suspicious links, spoofed domains)
-- Risk level assessment (Low/Medium/High/Critical)
-- Detailed findings with severity classification
-- Common phishing techniques explanation
-- Security tips
+- Customer data generation
+- Data preprocessing (StandardScaler)
+- Elbow Method for optimal clusters
+- Silhouette Score evaluation
+- PCA visualization
+- Customer persona identification
+- Business recommendations
 
 ## How to Run
-1. Run: `python phishing_analyzer.py`
-2. View analysis of sample phishing emails
+1. Install: `pip install pandas numpy matplotlib scikit-learn`
+2. Run: `python customer_segmentation.py`
 
 ## Author
 Aiman Zahoor
