@@ -1,24 +1,24 @@
-# Autonomous Mobile Robot Navigation - DecodeLabs Robotics Project 3
+# Algorithmic Trading Strategy & Backtesting - DecodeLabs Stock Market Project 3
 
 ## What It Does
-Simulates an autonomous robot navigating a maze using A* pathfinding with obstacle avoidance.
+Backtests a simple moving average crossover trading strategy over 5 years of data.
+
+## Strategy Rules
+- Entry: 50 MA crosses above 200 MA (BUY)
+- Exit: 50 MA crosses below 200 MA (SELL)
+- Stop Loss: -5%
+- Take Profit: +10%
 
 ## Features
-- 2D Occupancy Grid with random obstacles
-- A* pathfinding algorithm
-- Dynamic obstacle detection
-- Obstacle avoidance and rerouting
-- Real-time grid visualization
-
-## Key Concepts
-- SLAM basics (Occupancy Grid)
-- A* pathfinding algorithm
-- Obstacle avoidance logic
-- Spatial intelligence
+- Synthetic 5-year market data generation
+- Moving average calculation
+- Trade execution logic
+- Performance metrics (win rate, return)
+- Trade history display
 
 ## How to Run
-1. Run: `python amr_navigation.py`
-2. Watch the robot navigate to the goal
+1. Install: `pip install pandas numpy`
+2. Run: `python trading_backtest.py`
 
 ## Author
 Aiman Zahoor
