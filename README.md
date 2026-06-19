@@ -1,15 +1,24 @@
-# Random Password Generator - DecodeLabs Python Project 3
+# Autonomous Mobile Robot Navigation - DecodeLabs Robotics Project 3
 
 ## What It Does
-Generates a secure random password based on user-specified length and complexity.
+Simulates an autonomous robot navigating a maze using A* pathfinding with obstacle avoidance.
 
 ## Features
-- Customizable password length
-- Option to include special characters
-- Guarantees at least one uppercase, lowercase, and digit
-- Password strength checker
-- Input validation
+- 2D Occupancy Grid with random obstacles
+- A* pathfinding algorithm
+- Dynamic obstacle detection
+- Obstacle avoidance and rerouting
+- Real-time grid visualization
+
+## Key Concepts
+- SLAM basics (Occupancy Grid)
+- A* pathfinding algorithm
+- Obstacle avoidance logic
+- Spatial intelligence
 
 ## How to Run
-```bash
-python password_generator.py
+1. Run: `python amr_navigation.py`
+2. Watch the robot navigate to the goal
+
+## Author
+Aiman Zahoor
