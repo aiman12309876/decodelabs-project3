@@ -1,25 +1,23 @@
-# Secure Authentication System - DecodeLabs Backend Project 3
+# ERC-20 Token Wallet & Value Transfer - DecodeLabs Blockchain Project 3
 
 ## What It Does
-A secure authentication system with:
-- Password hashing using bcrypt
-- JWT token generation on login
-- Protected routes with token validation
-- User registration
+A token wallet system that simulates ERC-20 token transfers with:
+- Token creation with name, symbol, and supply
+- Wallet address generation
+- Balance checking
+- Transfer logic with insufficient balance validation
+- Transaction history
 
-## Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/register` | Register a new user |
-| POST | `/login` | Login and get JWT token |
-| GET | `/profile` | Get user profile (protected) |
-| GET | `/protected` | Test protected route |
+## Features
+- ERC-20 token implementation
+- Secure wallet addresses
+- Transfer validation (insufficient balance check)
+- Transaction history with hashes
+- Multiple wallet management
 
 ## How to Run
-1. Install: `pip install flask bcrypt pyjwt`
-2. Run: `python auth_app.py`
-3. Test with Postman
+1. Run: `python token_wallet.py`
+2. View token transfers and balances
 
 ## Author
 Aiman Zahoor
