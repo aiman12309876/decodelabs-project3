@@ -1,20 +1,22 @@
-# Unsupervised Learning - Customer Segmentation - DecodeLabs Data Science Project 3
+# CI/CD Pipeline Basics - DecodeLabs DevOps Project 3
 
 ## What It Does
-Segments customers using unsupervised learning techniques (K-Means clustering).
+Demonstrates understanding of CI/CD pipeline concepts and automation.
 
-## Features
-- Customer data generation
-- Data preprocessing (StandardScaler)
-- Elbow Method for optimal clusters
-- Silhouette Score evaluation
-- PCA visualization
-- Customer persona identification
-- Business recommendations
+## Topics Covered
+1. What is CI/CD?
+2. CI/CD Pipeline Stages
+3. Pipeline Flow
+4. GitHub Actions Workflow
+5. Benefits of CI/CD
+6. Best Practices
 
-## How to Run
-1. Install: `pip install pandas numpy matplotlib scikit-learn`
-2. Run: `python customer_segmentation.py`
+## Files in This Repository
+| File | Description |
+|------|-------------|
+| `pipeline_stages.md` | CI/CD concepts and stages |
+| `github_actions.yml` | Sample GitHub Actions workflow |
+| `README.md` | Project overview |
 
 ## Author
 Aiman Zahoor
