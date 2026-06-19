@@ -1,18 +1,27 @@
-# Phishing Awareness Analysis - DecodeLabs Cybersecurity Project 3
+# SQL Data Analysis - DecodeLabs Data Analytics Project 3
 
 ## What It Does
-Analyzes email messages to identify phishing attempts and red flags.
+Simulates SQL queries on an e-commerce dataset to extract business insights.
 
-## Features
-- Red flag detection (urgency, suspicious links, spoofed domains)
-- Risk level assessment (Low/Medium/High/Critical)
-- Detailed findings with severity classification
-- Common phishing techniques explanation
-- Security tips
+## SQL Concepts Covered
+- SELECT - Query data
+- WHERE - Filter data
+- ORDER BY - Sort data
+- GROUP BY - Aggregate data
+- HAVING - Filter grouped data
+- Aggregations: COUNT, SUM, AVG
+
+## Sample Queries
+- View orders
+- Filter by status
+- Top customers by spending
+- Product popularity
+- Monthly revenue trends
+- Category analysis
 
 ## How to Run
-1. Run: `python phishing_analyzer.py`
-2. View analysis of sample phishing emails
+1. Install: `pip install pandas`
+2. Run: `python sql_analysis.py`
 
 ## Author
 Aiman Zahoor
