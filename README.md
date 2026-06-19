@@ -1,19 +1,24 @@
-# AI Recommendation Logic - DecodeLabs Project 3 Task 1
+# Commercial Office Space Layout - DecodeLabs AutoCAD Project 3
 
 ## What It Does
-A simple recommendation system that suggests movies, books, or courses based on user preferences.
+Simulates a commercial office layout design with:
+- Multiple floors
+- Room planning
+- Furniture placement
+- Dynamic Blocks
+- External References (XREFs)
+- Bill of Materials (BOM)
 
 ## Features
-- Users select a category (Movies, Books, Courses)
-- Users choose items they like
-- System calculates similarity using tags
-- Top 5 recommendations displayed
+- Floor management
+- Room and furniture placement
+- Dynamic block creation
+- XREF linking
+- Automated BOM generation
 
 ## How to Run
-1. Run: `python recommendation.py`
-2. Select a category
-3. Enter your preferences
-4. View recommendations
+1. Run: `python office_layout.py`
+2. View the complete office design
 
 ## Author
 Aiman Zahoor
