@@ -1,19 +1,15 @@
-# Context-Anchored Answering - DecodeLabs Prompt Engineering Project 3
+# Random Password Generator - DecodeLabs Python Project 3
 
 ## What It Does
-A RAG (Retrieval-Augmented Generation) system that only answers questions using a provided reference text.
+Generates a secure random password based on user-specified length and complexity.
 
 ## Features
-- Context injection
-- Closed-book constraint
-- Negative constraints ("Information Not Found")
-- Citation requirement
-- Temperature set to 0 for strictness
+- Customizable password length
+- Option to include special characters
+- Guarantees at least one uppercase, lowercase, and digit
+- Password strength checker
+- Input validation
 
 ## How to Run
-1. Install: `pip install google-generativeai`
-2. Replace `YOUR_API_KEY_HERE` with your Gemini API key
-3. Run: `python rag_qa.py`
-
-## Author
-Aiman Zahoor
+```bash
+python password_generator.py
