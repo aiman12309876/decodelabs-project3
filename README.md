@@ -1,23 +1,18 @@
-# The Data Warehouse - DecodeLabs Cloud Computing Project 3
+# Phishing Awareness Analysis - DecodeLabs Cybersecurity Project 3
 
 ## What It Does
-Simulates a cloud database provisioning and management system with:
-- Database provisioning
-- Table creation
-- Record insertion
-- Record retrieval
-- Backup creation
+Analyzes email messages to identify phishing attempts and red flags.
 
 ## Features
-- Relational database simulation
-- Interns table with: Name, Role, Email, Phone, Department, JoiningDate
-- Dummy record insertion
-- Record management (insert, view, delete)
-- Backup functionality
+- Red flag detection (urgency, suspicious links, spoofed domains)
+- Risk level assessment (Low/Medium/High/Critical)
+- Detailed findings with severity classification
+- Common phishing techniques explanation
+- Security tips
 
 ## How to Run
-1. Run: `python data_warehouse.py`
-2. View the database operations
+1. Run: `python phishing_analyzer.py`
+2. View analysis of sample phishing emails
 
 ## Author
 Aiman Zahoor
