@@ -1,19 +1,33 @@
-# Interactive Web Elements - DecodeLabs Frontend Project 3
+# Database Integration - DecodeLabs Full Stack Project 3
 
 ## What It Does
-A webpage with 6 interactive JavaScript elements demonstrating DOM manipulation.
+A REST API with full CRUD operations connected to a SQLite database for student management.
 
-## Interactive Features
-1. **Button Click** - Displays a message on click
-2. **Dark Mode Toggle** - Switches between light and dark themes
-3. **Counter** - Increase/decrease count
-4. **Show/Hide** - Toggle visibility of text
-5. **Image Gallery** - Navigate through images
-6. **Color Changer** - Random background color change
+## Schema
+| Column | Type | Description |
+|--------|------|-------------|
+| id | Integer | Primary key |
+| name | String | Student name |
+| email | String | Unique email |
+| age | Integer | Student age |
+| course | String | Course name |
+| created_at | DateTime | Timestamp |
+
+## Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/` | API welcome message |
+| GET | `/students` | Get all students |
+| GET | `/students/<id>` | Get student by ID |
+| POST | `/students` | Create a new student |
+| PUT | `/students/<id>` | Update a student |
+| DELETE | `/students/<id>` | Delete a student |
 
 ## How to Run
-1. Open `index.html` in any browser
-2. Interact with all the buttons
+1. Install: `pip install flask flask-sqlalchemy`
+2. Run: `python app.py`
+3. Test with Postman or browser
 
 ## Author
 Aiman Zahoor
