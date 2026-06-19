@@ -1,37 +1,19 @@
-# ATM Interface - DecodeLabs Java Project 3
+# Context-Anchored Answering - DecodeLabs Prompt Engineering Project 3
 
 ## What It Does
-A Java-based ATM simulation using Object-Oriented Programming principles.
+A RAG (Retrieval-Augmented Generation) system that only answers questions using a provided reference text.
 
 ## Features
-- PIN validation
-- Check balance
-- Deposit money
-- Withdraw money
-- Account information display
-- Input validation
-
-## Classes
-
-### BankAccount
-| Attribute | Description |
-|-----------|-------------|
-| accountNumber | Unique account ID |
-| accountHolder | Account owner name |
-| balance | Current balance |
-| pin | Security PIN |
-
-### ATM
-| Method | Description |
-|--------|-------------|
-| displayMenu() | Show menu options |
-| run() | Main ATM loop |
-| main() | Entry point |
+- Context injection
+- Closed-book constraint
+- Negative constraints ("Information Not Found")
+- Citation requirement
+- Temperature set to 0 for strictness
 
 ## How to Run
-1. Compile: `javac BankAccount.java ATM.java`
-2. Run: `java ATM`
-3. Enter PIN: `1234`
+1. Install: `pip install google-generativeai`
+2. Replace `YOUR_API_KEY_HERE` with your Gemini API key
+3. Run: `python rag_qa.py`
 
 ## Author
 Aiman Zahoor
